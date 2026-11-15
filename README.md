@@ -1,5 +1,11 @@
 # Night Shift ($NIGHT) — makefun-coin-promo-01
 
+[![make.fun · makefun-coin-promo-01](https://make.fun/badge/makefun-coin-promo-01.svg)](https://make.fun/bounty/makefun-coin-promo-01?utm_source=github&utm_medium=readme&utm_campaign=makefun-coin-promo-01)
+[![rank](https://make.fun/badge/makefun-coin-promo-01/nycthyraxo-oss/makefun-coin-promo-01/rank.svg)](https://make.fun/bounty/makefun-coin-promo-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=makefun-coin-promo-01)
+[![reward](https://make.fun/badge/makefun-coin-promo-01/nycthyraxo-oss/makefun-coin-promo-01/reward.svg)](https://make.fun/bounty/makefun-coin-promo-01?utm_source=github&utm_medium=readme&utm_campaign=makefun-coin-promo-01)
+
+Built for the [make.fun bounty](https://make.fun/bounty/makefun-coin-promo-01) — Launch a coin that sells make.fun.
+
 A coin that sells make.fun to pump.fun's traders. The coin is the entry: an AI
 judge compares the coins two at a time on creativity, how well they promote
 make.fun, and how likely they are to draw buyers. Top 50 share $1,000.
@@ -30,9 +36,10 @@ parameters (name, ticker, description, website).
 - `main.ts` (Node 22, standard library only, no network) copies `LAUNCH.json`
   to `/output/LAUNCH.json`. That is all the program has to do.
 - `LAUNCH.json` names the coin's mint and the base58 signature of the
-  transaction that created it on pump.fun. It currently holds `null`
-  placeholders: the coin has **not** been launched yet. After the launch, fill
-  both values in, commit, and submit.
+  transaction that created it on pump.fun. Launched 2026-11-15 13:59:40 WIB
+  (slot 469637763, create tx
+  `XfZQ61vdePbs6mchnJ46ZEokPkWM8thiFgYKGRhqWreiXmvqvmVFBQcDGW9s6LudtrcaDDg8rU1S9bjrpdo9ob3`,
+  cost 0.00581644 SOL).
 - `coin.json` is the launch spec (exact name, ticker, description, website,
   logo, wallet, no initial buy).
 - `.makefun/owner.json` names the wallet linked to the make.fun account
@@ -56,4 +63,7 @@ from escrow (first-claim rent + fee), per the bounty rules.
 ## Status
 
 Built 2026-11-15, in-window (competition opened 2026-11-15T06:00:00Z).
-Launch pending the owner's per-case tap on an exact preview. Not submitted.
+Launched 2026-11-15 13:59:40 WIB (59m40s after the opening).
+Submitted to make.fun 2026-11-15 14:10:50 WIB (submission
+`01a1de0b-618d-7739-849b-21ffc8525eb4`), Round 1, outcome not decided yet.
+Result due 2026-12-01T18:10:00Z.
