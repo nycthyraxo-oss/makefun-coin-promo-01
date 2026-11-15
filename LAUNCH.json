@@ -1,1 +1,4 @@
-{"create_signature":null,"mint":null,"note":"Placeholder until the coin is launched on pump.fun. After the launch (from the wallet linked to @dongdot), replace mint with the coin's mint address (base58, 32-44 chars) and create_signature with the base58 signature of the transaction that created it (64-88 chars). Do NOT submit with null values: the gate refuses them.","status":"PENDING_LAUNCH"}
+{
+  "mint": "5n928LDggYkQso36ZN37AVBzYrThc4Yx3ULSukTgB2rX",
+  "create_signature": "XfZQ61vdePbs6mchnJ46ZEokPkWM8thiFgYKGRhqWreiXmvqvmVFBQcDGW9s6LudtrcaDDg8rU1S9bjrpdo9ob3"
+}
